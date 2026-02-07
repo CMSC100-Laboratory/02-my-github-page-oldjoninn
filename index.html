@@ -1,105 +1,38 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <title>Sample Web Page 2</title>
-    <link rel="stylesheet" type="text/css" href="flex2.css" />
-    <base target="_blank">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-
-<body class="roboto-300">
-
-    <nav>
-        <div class="nav_bar">
-            <div class="flex-item">
-                <a href="./sample.html">HTML</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/css/">CSS</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/js/">JavaScript</a>
-            </div>
-
-            <div class="flex-item">
-                <a href="/python/">Python</a>
-            </div>
-
-        </div>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li class="logo"><a href="index.html">LOGO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+        </ul>
     </nav>
 
-    <div class="flex-container">
-        <div class="flex-item" style="flex: 3; order: 1;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
+    <!-- Home Content -->
+    <div class="container">
+        <div class="left-side">
+            <div class="featured-image">
+                <p>FEATURED PICTURE</p>
+            </div>
         </div>
-
-        <div class="flex-item" style="flex: 3; order: 1;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 2; order: 1;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 4; order: 1;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 3; order: 1;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-
-        <div class="flex-item" style="flex: 1; order: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
-        </div>
-    </div>
-
-    <div class="flex-container2">
-        <div class="flex-item" style="flex: 3;">
-            <h1>1</h1>
-            <p>This is a paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>2</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 2;">
-            <h1>3</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 4;">
-            <h1>4</h1>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
-        <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
-            <p>This is another paragraph</p>
+        <div class="right-side">
+            <div class="name-box">
+                <p>FULL NAME AND SKILLS</p>
+            </div>
+            <div class="bio-box">
+                <p>AUTOBIOGRAPHY</p>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
